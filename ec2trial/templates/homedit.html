@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random WP</title>
+    <style>
+        body {
+            background-color: #edab93cd; /* Light shade background color */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #9dbdf5;
+            border-bottom: 1px solid #ddd;
+        }
+        header img {
+            height: 50px; /* Adjust the size of the logos */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://csitss.ieee-rvce.org/RVCE%20NEW-HEADER_onlyLogo.png" alt="Logo 1">
+        <h1>Hey There</h1>
+        <img src="https://wallpapers.com/images/featured/raccoon-png-7o80b2j7bcbd8xe1.jpg" alt="Logo 2">
+    </header>
+    <main>
+        <p>Enter your name and go to the new page:</p>
+        <form action="/newpage" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Go to New Page</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Something</p>
+    </footer>
+</body>
+</html>
